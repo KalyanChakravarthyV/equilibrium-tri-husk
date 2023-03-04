@@ -5,48 +5,11 @@
 
 package com.tririga.ws;
 
-import com.tririga.ws.dto.ActionItem;
-import com.tririga.ws.dto.ApplicationInfo;
-import com.tririga.ws.dto.Association;
-import com.tririga.ws.dto.AssociationDefinition;
-import com.tririga.ws.dto.AssociationFilter;
-import com.tririga.ws.dto.AssociationRecord;
-import com.tririga.ws.dto.AvailableAction;
-import com.tririga.ws.dto.BaseObjectType;
-import com.tririga.ws.dto.ChildRecord;
-import com.tririga.ws.dto.ContinuationToken;
-import com.tririga.ws.dto.ConversionGroup;
-import com.tririga.ws.dto.Currency;
-import com.tririga.ws.dto.CurrencyConversionRate;
-import com.tririga.ws.dto.DisplayLabel;
-import com.tririga.ws.dto.FieldSortOrder;
-import com.tririga.ws.dto.Filter;
-import com.tririga.ws.dto.GroupBy;
-import com.tririga.ws.dto.HierarchyObjectType;
-import com.tririga.ws.dto.HttpSession;
-import com.tririga.ws.dto.IntegrationRecord;
-import com.tririga.ws.dto.KeywordSearchResult;
-import com.tririga.ws.dto.ListItem;
-import com.tririga.ws.dto.ListType;
-import com.tririga.ws.dto.MetricQueryFilter;
-import com.tririga.ws.dto.MetricQueryResult;
-import com.tririga.ws.dto.Module;
-import com.tririga.ws.dto.ObjectType;
-import com.tririga.ws.dto.ObjectTypeAction;
-import com.tririga.ws.dto.Project;
-import com.tririga.ws.dto.QueryMultiBoResult;
-import com.tririga.ws.dto.QueryResult;
-import com.tririga.ws.dto.Record;
-import com.tririga.ws.dto.ResponseHelper;
-import com.tririga.ws.dto.ResponseHelperHeader;
-import com.tririga.ws.dto.State;
-import com.tririga.ws.dto.Transition;
 import com.tririga.ws.dto.TriggerActions;
-import com.tririga.ws.dto.content.Content;
-import com.tririga.ws.dto.content.ContentField;
+import com.tririga.ws.dto.*;
 import com.tririga.ws.dto.content.InvalidContentException;
 import com.tririga.ws.dto.content.InvalidDocumentTypeException;
-import com.tririga.ws.dto.content.Response;
+import com.tririga.ws.dto.content.*;
 import com.tririga.ws.dto.gui.GUI;
 import com.tririga.ws.errors.AccessException;
 import com.tririga.ws.errors.ActionDoesNotExistException;
@@ -60,6 +23,7 @@ import com.tririga.ws.errors.ObjectTypeDoesNotExistException;
 import com.tririga.ws.errors.ProjectDoesNotExistException;
 import com.tririga.ws.errors.QueryDoesNotExistException;
 import com.tririga.ws.errors.RecordDoesNotExistException;
+
 import java.util.Collection;
 
 public interface TririgaWS {
